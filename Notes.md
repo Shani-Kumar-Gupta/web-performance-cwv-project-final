@@ -19,3 +19,9 @@
 
 - Lazy loading
 - Add correct attributes for image elements
+
+-----------------------------------------------------------------------------------------------------
+
+# Fixing CLS:
+CLS with old and New Images
+- Set width and height explicitly
