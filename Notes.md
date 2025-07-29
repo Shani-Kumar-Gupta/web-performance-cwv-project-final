@@ -25,3 +25,6 @@
 # Fixing CLS:
 CLS with old and New Images
 - Set width and height explicitly [Calculates the Aspect Radio and Reserve the Space for the Images]
+
+Hidden Elements: (Cause CLS)
+Usability Problems
