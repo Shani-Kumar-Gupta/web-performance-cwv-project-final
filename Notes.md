@@ -44,3 +44,7 @@ loading="lazy"
 # Render Blocking Resources:
 - Google Font (Self Host the font file)
 - Cookies
+
+---------------------------------------------------------------------------------------------------
+
+# Defer Scripts
