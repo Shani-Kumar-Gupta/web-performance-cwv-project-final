@@ -13,6 +13,9 @@
 - Compress images and use mordern formats
  : Faster Download
  : Less Data Consuption
+
+3. Handling Responsive Images using Picture Element
 - Handling Responsive loding images
+
 - Lazy loading
 - Add correct attributes for image elements
