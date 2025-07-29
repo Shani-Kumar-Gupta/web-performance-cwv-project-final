@@ -8,7 +8,11 @@
 # Improvements
 1. Avoid Oversized Images
 - Image Dimention (Oversized Images)
+
+2. Converting and Compressing Images
+- Compress images and use mordern formats
+ : Faster Download
+ : Less Data Consuption
 - Handling Responsive loding images
 - Lazy loading
 - Add correct attributes for image elements
-- Compress images and use mordern formats
