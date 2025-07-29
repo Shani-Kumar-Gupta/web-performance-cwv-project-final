@@ -28,3 +28,13 @@ CLS with old and New Images
 
 Hidden Elements: (Cause CLS)
 Usability Problems
+
+----------------------------------------------------------------------------------------------------
+
+# Lazy Loading (offloading the images) - visible in Viewport:
+loading="lazy"
+
+----------------------------------------------------------------------------------------------------
+
+# Reduce JavaScript Execution Time (Lazy load the complete section which is not visible)
+(product.js)

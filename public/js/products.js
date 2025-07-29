@@ -22,7 +22,7 @@ function displayProducts(products) {
         const img = document.createElement('img');
         img.src = product.image;
         img.alt = `product: ${product.title}`;
-        img.loading="lazy";
+        img.loading="lazy"; /// lazy loading
         img.width=250;
         pictureDiv.appendChild(img);
 
@@ -65,12 +65,29 @@ function displayProducts(products) {
 
 }
 
-
-
-loadProducts();
-
-// Simulate heavy operation. It could be a complex price calculation.
-for (let i = 0; i < 10000000; i++) {
-    const temp = Math.sqrt(i) * Math.sqrt(i);
+// Lazy Loading
+window.onload = () => {
+    let status = true;
+    let productSection = document.querySelector("#all-products");
+    // console.log(productSection.getBoundingClientRect().top)
+    window.onscroll = () => {
+        let position = productSection.getBoundingClientRect().top - window.scrollY + window.innerHeight;
+        // console.log(window.scrollY + window.innerHeight)
+        if (position <= 0 && status) {
+            status = false;
+            loadProducts();
+            // Simulate heavy operation. It could be a complex price calculation.
+            for (let i = 0; i < 10000000; i++) {
+                const temp = Math.sqrt(i) * Math.sqrt(i);
+            }
+        }
+    }
 }
+
+// loadProducts();
+
+// // Simulate heavy operation. It could be a complex price calculation.
+// for (let i = 0; i < 10000000; i++) {
+//     const temp = Math.sqrt(i) * Math.sqrt(i);
+// }
 
