@@ -38,3 +38,9 @@ loading="lazy"
 
 # Reduce JavaScript Execution Time (Lazy load the complete section which is not visible)
 (product.js)
+
+----------------------------------------------------------------------------------------------------
+
+# Render Blocking Resources:
+- Google Font (Self Host the font file)
+- Cookies
