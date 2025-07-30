@@ -43,8 +43,9 @@ loading="lazy"
 
 # Render Blocking Resources:
 - Google Font (Self Host the font file)
-- Cookies
+- Cookies script (defer the script - to not blocking the rendering of the UI)
 
 ---------------------------------------------------------------------------------------------------
 
 # Defer Scripts
+Use defer attribute for script want to load after UI rendering
