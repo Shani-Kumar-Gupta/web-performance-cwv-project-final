@@ -6,7 +6,7 @@
 - Image Size is also impacting the performance (200Kb -300Kb)
 
 # Improvements
-1. Avoid Oversized Images
+1. Avoid Oversized Images -> 1920 (2400)
 - Image Dimention (Oversized Images)
 
 2. Converting and Compressing Images
