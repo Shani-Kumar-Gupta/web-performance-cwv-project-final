@@ -49,3 +49,9 @@ loading="lazy"
 
 # Defer Scripts
 Use defer attribute for script want to load after UI rendering
+
+# ------------------------------------- Fix Accessibility Issues ----------------------------------
+It's important to fix the Accessibility issues because the people having vision imperiments, they use the internet using Screen Reader.
+
+- Always use alt attributes with img element to more describe the image in textual form
+- Always check the Color Contrast of an element - use Constrast Checker online tool (Always check with designer)
